@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+}
+.container{
+    display: flex;
+}
+#underline {
+    text-decoration: underline;
+}
+.second{
+    margin-left: 20px;
+}
+.space{
+    clear: both;
+    overflow: auto;
+}
+.back {
+    background-color: #D9FF19;
+}
+p {
+    padding : 0;
+    margin : 10px;
+    line-height : 20px;
+    font-weight: bold;    
+    font-size:20px;   
+    color: black;
+      margin-top: 10px;
+}
