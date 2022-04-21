@@ -1,3 +1,6 @@
-# Date of assignment :03/29/2022
-# Date of submission :03/29/2022
-![alt text](https://github.com/manishkarki99/wt-lab-assignment/blob/main/Assignment/Assignment%203/ss.png.png)
+- Assignment of Web technology
+
+- Assignment 3 (Bird watching)- 3/29/2022
+- [Assignment 3 website Link](https://manishkarki99.github.io/wt-lab-assignment/Assignment/Assignment3/assets/)
+- Assignment 4 (Gces Routine) - 4/20/2022
+- [Assignment 4 website Link](https://manishkarki99.github.io/wt-lab-assignment/Assignment/Assignment4/)
