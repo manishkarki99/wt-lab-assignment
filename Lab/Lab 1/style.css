@@ -1,0 +1,10 @@
+#bird {
+    width: 40%;
+}
+#video {
+    width: 20%;
+}
+iframe {
+    width: 100%;
+    height: 100%;
+}
