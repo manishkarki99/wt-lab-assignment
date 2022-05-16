@@ -1,0 +1,190 @@
+#all {
+    
+    margin: 20%;    
+    margin-top: 10%; 
+    }
+
+#plus {
+     width: 25%;
+     height: 100%;
+}
+#pri{
+    width: 20%;
+    height: 100%
+}
+    
+body{
+        font-family: sans-serif;
+        letter-spacing: 1px;
+    }
+    
+    
+    header h1{
+        font-size: 40px;
+    }
+    
+    .lab2{
+    
+       
+       width: 60vw;
+       margin: auto;
+       padding: 40px 0px;
+    
+    }
+    
+    main{
+        display: flex;
+    }
+    
+    
+    div{
+        padding: 20px;
+        width: 100px;
+        height: 10rem;
+    }
+    
+    main div p{
+        color: lightgrey;
+    
+    }
+    
+    button{
+        padding: 10px 25px;
+        font-size: 16px;
+        border-radius: 4px;
+        border: none;
+        transition: 200ms ;
+        cursor: pointer;
+    
+    }
+    
+    .btn-primary{
+        background-color: rgb(22, 148, 114);
+        color: white;
+    }
+    
+    
+    
+    .btn-secondary{
+        border: 1px solid lightgrey;
+    }
+    
+    
+    
+    .btn-destructive{
+        color: white;
+        background-color: rgba(238, 131, 99, 1.0);
+    }
+    
+    .btn-p{
+        background-color: white;
+        color: rgba(38, 190, 150, 1.0);
+    }
+    
+    .btn-primary:hover,.btn-secondary:hover,.btn-destructive:hover,.btn-p:hover,.btn-circle:hover{
+         box-shadow: 0 3px #1A9781;
+    }
+    
+    
+    .btn-primary:active,.btn-secondary:active,.btn-destructive:active,.btn-p:active,.btn-circle:active{
+        opacity: 0.6;
+    }
+    
+    
+    .btn-primary2{
+       background-color: white;
+       border: 1px solid rgb(22, 148, 114);
+       color:rgba(38, 190, 150, 1.0) ;
+    }
+    
+    .btn-primary2:hover{
+        border: 3px solid  rgb(22, 148, 114);
+    }
+    .btn-primary2:active{
+        background-color: rgb(22, 148, 114);
+        color: white;
+    }
+    
+    .btn-secondary2{
+    background-color: white;
+    border: 1px solid #87A4AD;
+    color: #87A4AD;
+    }
+    
+    .btn-secondary2:hover{
+        border: 3px solid   #87A4AD;
+    }
+    
+    .btn-secondary2:active{
+        border: 1px solid lightgrey;
+    }
+    
+    .btn-destructive2{
+    background-color: white;
+    border: 1px solid rgba(238, 131, 99, 1.0);
+       color:rgba(238, 131, 99, 1.0) ;
+    }
+    
+    .btn-destructive2:hover{
+        border: 3px solid  rgba(238, 131, 99, 1.0);
+    }
+    
+    .btn-destructive2:active{
+    color: white;
+        background-color: rgba(238, 131, 99, 1.0);
+    }
+    
+    
+    .btn-p2{
+        background-color:rgb(22, 148, 114);
+        color: white;
+        border: 1px solid white;
+    }
+    
+    .btn-p2:hover{
+        border: 3px solid white;
+    }
+    
+    .btn-p2:active{
+        background-color: white;
+        color: rgb(22, 148, 114);
+    }
+    #primary2{
+    
+        background-color: rgb(19, 138, 106);
+    }
+    
+    a{
+        cursor: pointer;
+        transition: 200ms;
+    }
+    
+    .btn-circle{
+        border-radius:50%;
+        padding: 10px 15px;
+        font-size: 20px;
+        color: white;
+        background-color:rgb(22, 148, 114);
+    };
+
+
+.btn {
+    color: white;
+    border: solid 1px green;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: green;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 01%;
+    padding-bottom: 01%;
+}
+
+.primary {
+    color: white;
+    border: sloid 1px green;
+    text-decoration: none;
+    background-color: green;
+    padding:10px;
+    border-radius: 3px;
+}
