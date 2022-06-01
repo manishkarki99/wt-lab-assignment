@@ -1,0 +1,129 @@
+
+nav {
+    width: 100%;
+    display: inline-block;
+}
+
+nav h1 {
+    float: left;
+    font-size: 30px;
+}
+
+ul {
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 55px;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    font-size: 17px;
+}
+
+li {
+    display: inline;
+    list-style: none;
+}
+
+.contact {
+    float: right;
+    text-decoration: none;
+    color: black;
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin-top: -50px;
+    border-radius: 5px;
+}
+
+.body {
+    position: absolute;
+    top: 20%;
+    height: fit-content;
+    display: inline-block;
+    margin: 30px;
+}
+
+.text {
+    margin-top: -20px;
+    font-size: 2em;
+    float: left;
+}
+
+.text1 {
+    margin-bottom: -15px;
+}
+
+.text2 {
+    margin-top: -10px;
+}
+
+.body img {
+    width: 50%;
+    float: right;
+}
+
+.lists {
+    margin-top: 17%;
+    text-align: left;
+}
+
+.item {
+    margin-left: 30px;
+    font-size: 23px;
+}
+
+.lists div.svg {
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.item p {
+    display: inline-block;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.svg {
+    background-color: #3B83F7;
+    -webkit-mask: url(tick.svg) no-repeat center / contain;
+}
+
+.subscribe {
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+input[type="text"] {
+    width: 300px;
+    height: 45px;
+    padding-right: 50px;
+    border-radius: 5px;
+    border-color: #3b3b3b13;
+
+}
+
+::placeholder {
+    padding-left: 30px;
+    font-size: 18px;
+    color: #3b3b3bb8;
+}
+
+input[type="submit"] {
+    margin-left: -80px;
+    height: 40px;
+    width: 70px;
+    background: #3B83F7;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border: 0;
+    -webkit-appearance: none;
+}
