@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+        }
+        .container{
+            display: flex;
+            justify-content: flex-start;
+        }
+    </style>
+</head>
+<body onload="move('box')">
+    <div class="container">
+        <div style="background:rgb(137, 30, 30) ;" class="box"> </div>
+        <div style="background: rgb(73, 36, 100);" class="box"></div>
+        <div style="background: rgb(169, 169, 10);" class="box"></div>
+    </div>
+    
+
+    <script>
+        var chooseElement;
+
+        const move = function(element){
+            const elements = document.querySelectorAll(".box");
+            elements.forEach(element=>{
+                element.addEventListener("mousedown",()=>{
+                    element.style.position='absolute';
+                    chooseElement=element;
+
+                    document.onmousemove = (e)=>{
+                        var x =e.pageX
+                        var y =e.pageY
+
+                        chooseElement.style.left=x + 'px';
+                        chooseElement.style.top=y + 'px';
+                    }
+                    document.onmouseup = (e)=>{
+                        chooseElement=null;
+                    }
+                    
+                })
+            })
+        }
+    </script>
+</body>
+</html>
